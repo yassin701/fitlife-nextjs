@@ -4,7 +4,7 @@ import { FaAppleAlt } from "react-icons/fa";
 
 export default function Nutrition() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-900 via-black to-gray-900">
+    <div className="min-h-screen bg-linear-to-b from-gray-900 via-black to-gray-900">
       <Header />
       <main className="pt-24 pb-20 max-w-5xl mx-auto px-6 text-white">
 

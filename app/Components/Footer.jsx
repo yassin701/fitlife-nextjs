@@ -9,7 +9,7 @@ export default function Footer() {
                     <div className="flex flex-col md:flex-row justify-between items-center">
                         <div className="mb-6 md:mb-0">
                             <div className="flex items-center space-x-3">
-                                <div className="h-10 w-10 bg-gradient-to-br from-blue-500 to-yellow-600 rounded-xl flex items-center justify-center">
+                                <div className="h-10 w-10 bg-linear-to-br from-blue-500 to-yellow-600 rounded-xl flex items-center justify-center">
                                     <span className="text-white font-bold">FL</span>
                                 </div>
                                 <span className="text-2xl font-bold text-white">FitLife</span>

@@ -20,7 +20,7 @@ export default function Features() {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-b from-gray-900 to-yellow-700">
+    <section className="py-20 bg-linear-to-b from-gray-900 to-yellow-700">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Section Title */}
@@ -41,7 +41,7 @@ export default function Features() {
             return (
               <div
                 key={index}
-                className={`group bg-gradient-to-br ${feature.gradient}
+                className={`group bg-linear-to-br ${feature.gradient}
                 backdrop-blur-sm border border-white/10 rounded-2xl p-8
                 hover:border-blue-400/40 hover:shadow-xl hover:shadow-blue-500/10
                 transition-all duration-500 hover:-translate-y-2`}

@@ -7,10 +7,10 @@ export default function Header() {
         <nav className="flex justify-between items-center">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-3 group">
-            <div className="h-10 w-10 bg-gradient-to-br from-blue-500 to-yellow-600 rounded-xl flex items-center justify-center group-hover:rotate-12 transition-transform duration-300">
+            <div className="h-10 w-10 bg-linear-to-br from-blue-500 to-yellow-600 rounded-xl flex items-center justify-center group-hover:rotate-12 transition-transform duration-300">
               <span className="text-white font-bold text-xl">FL</span>
             </div>
-            <span className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-yellow-400 bg-clip-text text-transparent">
+            <span className="text-2xl font-bold bg-linear-to-r from-blue-400 to-yellow-400 bg-clip-text text-transparent">
               FitLife
             </span>
           </Link>
@@ -31,7 +31,7 @@ export default function Header() {
             </Link>
             <Link 
               href="/join" 
-              className="ml-4 px-6 py-2.5 bg-gradient-to-r from-blue-500 to-yellow-600 text-white font-semibold rounded-full hover:shadow-xl hover:shadow-blue-500/30 hover:scale-105 transition-all duration-300"
+              className="ml-4 px-6 py-2.5 bg-linear-to-r from-blue-500 to-yellow-600 text-white font-semibold rounded-full hover:shadow-xl hover:shadow-blue-500/30 hover:scale-105 transition-all duration-300"
             >
               Join Now
             </Link>

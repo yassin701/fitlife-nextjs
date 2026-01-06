@@ -20,8 +20,8 @@ export default function Home() {
                         sizes="100vw"
                     />
                     {/* Gradient Overlay */}
-                    <div className="absolute inset-0 bg-gradient-to-r from-gray-900/80 via-gray-900/60 to-transparent"></div>
-                    <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40 to-transparent"></div>
+                    <div className="absolute inset-0 bg-linear-to-r from-gray-900/80 via-gray-900/60 to-transparent"></div>
+                    <div className="absolute inset-0 bg-linear-to-t from-gray-900 via-gray-900/40 to-transparent"></div>
                 </div>
 
                 {/* Content */}
@@ -30,7 +30,7 @@ export default function Home() {
                         {/* Left Content */}
                         <div className="space-y-8">
                             {/* Badge */}
-                            <div className="inline-flex items-center px-5 py-2.5 rounded-full bg-gradient-to-r from-blue-500/20 to-purple-600/20 border border-blue-400/30 backdrop-blur-sm">
+                            <div className="inline-flex items-center px-5 py-2.5 rounded-full bg-linear-to-r from-blue-500/20 to-purple-600/20 border border-blue-400/30 backdrop-blur-sm">
                                 <span className="h-2 w-2 bg-yellow-400 rounded-full mr-3 animate-pulse"></span>
                                 <span className="text-gray-200 font-semibold tracking-wide">PREMIUM FITNESS EXPERIENCE</span>
                             </div>
@@ -38,7 +38,7 @@ export default function Home() {
                             {/* Heading */}
                             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight">
                                 Elevate Your
-                                <span className="block text-transparent bg-gradient-to-r from-white via-yellow-400 to-pink-400 bg-clip-text">
+                                <span className="block text-transparent bg-linear-to-r from-white via-yellow-400 to-pink-400 bg-clip-text">
                                     Fitness Journey
                                 </span>
                             </h1>
@@ -52,8 +52,8 @@ export default function Home() {
                             {/* CTA Buttons */}
                             <div className="flex flex-col sm:flex-row gap-5 pt-6">
                                 <Link
-                                    href="/services"
-                                    className="group inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-blue-200 to-yellow-600 text-white font-bold text-lg rounded-xl hover:shadow-2xl hover:shadow-blue-500/40 transition-all duration-300 transform hover:-translate-y-1"
+                                    href="/Services"
+                                    className="group inline-flex items-center justify-center px-8 py-4 bg-linear-to-r from-blue-200 to-yellow-600 text-white font-bold text-lg rounded-xl hover:shadow-2xl hover:shadow-blue-500/40 transition-all duration-300 transform hover:-translate-y-1"
                                 >
                                     Discover Services
                                     <svg

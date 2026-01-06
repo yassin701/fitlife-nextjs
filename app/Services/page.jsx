@@ -32,7 +32,7 @@ export default function ServicesPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-900 via-black to-gray-900">
+    <div className="min-h-screen bg-linear-to-b from-gray-900 via-black to-gray-900">
       <Header />
 
       <main className="pt-24 pb-20">
@@ -40,7 +40,7 @@ export default function ServicesPage() {
         <div className="max-w-7xl mx-auto px-6 mb-16 text-center">
           <h1 className="text-5xl font-bold text-white mb-6">
             Our{" "}
-            <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+            <span className="bg-linear-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
               Services
             </span>
           </h1>
@@ -59,7 +59,7 @@ export default function ServicesPage() {
                 <Link
                   key={index}
                   href={service.href}
-                  className={`group bg-gradient-to-br ${service.gradient} border border-white/10 rounded-2xl p-8 hover:border-blue-400/40 hover:shadow-xl transition-all duration-300 hover:-translate-y-2`}
+                  className={`group bg-linear-to-br ${service.gradient} border border-white/10 rounded-2xl p-8 hover:border-blue-400/40 hover:shadow-xl transition-all duration-300 hover:-translate-y-2`}
                 >
                   {/* Icon */}
                   <Icon className="w-12 h-12 text-white mb-6" />
