@@ -6,24 +6,21 @@ export default function Features() {
       title: "Personal Training",
       desc: "Train one-on-one with a professional coach to reach your goals faster.",
       icon: FaDumbbell,
-      gradient: "from-orange-500/20 to-red-600/20",
     },
     {
       title: "Group Classes",
       desc: "Join fun and motivating group sessions for all fitness levels.",
       icon: FaUsers,
-      gradient: "from-green-500/20 to-emerald-600/20",
     },
     {
       title: "Health Tracking",
       desc: "Monitor your health and progress with simple tracking tools.",
       icon: FaHeartbeat,
-      gradient: "from-red-500/20 to-pink-600/20",
     },
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-b from-gray-900 to-black">
+    <section className="py-20 bg-gradient-to-b from-gray-900 to-yellow-700">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Section Title */}
